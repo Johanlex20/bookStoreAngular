@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { AuthRequest, AuthResponse, Profile, SignupRequest } from '../interfaces/auth.interface';
-import { environment } from 'src/environments/enviroment';
+import { environment } from 'src/environments/environment';
 import { map, throwIfEmpty } from 'rxjs';
 
 const authKey = 'bookstoreweb_auth';

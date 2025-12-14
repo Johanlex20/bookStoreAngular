@@ -1,7 +1,7 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Book, BookPage } from 'src/app/interfaces/book.interface';
-import { environment } from 'src/environments/enviroment';
+import { environment } from 'src/environments/environment';
 import { SalesOrder } from '../interfaces/order.interface';
 
 @Injectable({

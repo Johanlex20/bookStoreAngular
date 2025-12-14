@@ -2,7 +2,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Book, BookPage } from '../../interfaces/book.interface';
 import { tick } from '@angular/core/testing';
-import { environment } from 'src/environments/enviroment';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
