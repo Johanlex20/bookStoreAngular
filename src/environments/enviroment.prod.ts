@@ -1,6 +1,6 @@
 export const environment = {
     production: true,
-    apiBase: 'https://www.Good-Company.com/api',
-    paypalReturnUrl: 'http://localhost:4200/cart'
-
+    apiBase: 'https://bookstore.modoblu.com/api',   // backend público
+    apiBaseFront: 'https://bookstore.modoblu.com',
+    paypalReturnUrl: 'http://localhost:4206/cart'
 }
