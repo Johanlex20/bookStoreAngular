@@ -1,7 +1,5 @@
 export const environment = {
-    production: false,
-    apiBase: 'http://localhost:8080/api',
-    paypalReturnUrl: 'http://localhost:4206/cart'
-    /* ACTUALIZANDO PROYECTO 2026 */
-
+  apiBase: 'http://localhost:8084/api',
+  apiBaseFront: 'http://localhost:4206',
+  paypalReturnUrl: 'http://localhost:4206/cart'
 }
